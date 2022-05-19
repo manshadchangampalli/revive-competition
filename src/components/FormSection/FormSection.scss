@@ -1,45 +1,44 @@
-.form-section{
-    width: 100vw;
+.form-section {
+  width: 100vw;
+  height: auto;
+  display: grid;
+  padding: 50px 0;
+  place-items: center;
+  .form-box {
+    width: 600px;
     height: auto;
+    padding: 50px 30px;
+    border-radius: 20px;
+    background: #06333c;
+    color: #94aeb4;
+    box-shadow: 1px 1px 20px 0 #012f38, inset 1px 1px 25px #063e49;
     display: grid;
-    padding:50px 0 ;
-    place-items: center;
-    .form-box{
-        width: 600px;
-        height: auto;
-        padding: 50px 30px;
-        border-radius: 20px;
-        background: #06333C;
-        color: #94AEB4;
-        box-shadow: 1px 1px 20px 0 #012f38,
-        inset 1px 1px 25px #063e49  ;
-        display: grid;
-        grid-gap: 20px;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        input{
-            padding: 20px;
-            font-size: 20px;
-            border-radius: 10px;
-            border: none;
-            outline: none;
-            background: #17505D;
-            font-weight: bold;  
-            color: #94AEB4;
-        }
-        .signup,.login{
-            display: flex;
-            justify-content: space-between;
-            button{
-                padding: 10px;
-                width: 130px;
-                border: none;
-                outline: none;
-                font-size: 16px;
-                font-weight: bold;
-                color: white;
-                border-radius: 10px;
-            }
-        }
-        
+    grid-gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    input {
+      padding: 20px;
+      font-size: 20px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      background: #17505d;
+      font-weight: bold;
+      color: #94aeb4;
     }
+    .signup,
+    .login {
+      display: flex;
+      justify-content: space-between;
+      button {
+        padding: 10px;
+        width: 130px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        border-radius: 10px;
+      }
+    }
+  }
 }

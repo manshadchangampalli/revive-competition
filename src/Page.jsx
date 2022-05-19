@@ -1,8 +1,10 @@
 import React from 'react'
 import BookReviwer from './components/BookReviewer/BookReviwer'
 import CardsSection from './components/CardsSeciton/CardsSection'
+import End from './components/End/End'
 import FormSection from './components/FormSection/FormSection'
 import Hero from './components/Hero/Hero'
+import LastSection from './components/LastSection/LastSection'
 
 const Page = () => {
   return (
@@ -12,6 +14,8 @@ const Page = () => {
         <BookReviwer/>
         <CardsSection/>
         <FormSection/>
+        <LastSection/>
+        <End/>
     </div>
   )
 }
