@@ -7,7 +7,7 @@ const Cards = () => {
                 <img src="images/Img2.jpg" alt="" />
             </div>
             <div className="bottom-bar">
-                <h2>rationg:3/4</h2>
+                <h2>Rating: 5/6</h2>
                 <button>Read</button>
             </div>
         </div>

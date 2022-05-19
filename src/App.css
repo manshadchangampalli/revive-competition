@@ -1,6 +1,18 @@
 /* links */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+/* placeholder color changing  */
+::placeholder {
+  color: #94AEB4;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #94AEB4;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #94AEB4;
+}
+
 *{
   margin: 0;
   padding: 0;
