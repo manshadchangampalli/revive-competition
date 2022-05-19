@@ -20,9 +20,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   width: 100vw;
-  position: relative;
   overflow-x: hidden;
   background: #03323c;
 }
@@ -35,10 +37,16 @@ h2 {
 p {
   font-family: "Poppins", sans-serif;
 }
-.backgroundText{
+.pages {
+  position:relative ;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.backgroundText {
   position: absolute;
   right: 0%;
   max-height: 100vh;
   transform: translateX(30%);
   bottom: 200px;
+  z-index: -1;
 }

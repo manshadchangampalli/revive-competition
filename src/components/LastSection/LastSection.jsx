@@ -4,7 +4,7 @@ import './LastSection.scss'
 const LastSection = () => {
     return (
         <div className="last-section">
-            <div className="top-button">
+            <div onClick={() => window.scrollTo(0, 0)} className="top-button">
                 <img src="images/icons/arrowTop.svg" alt="" />
             </div>
             <div className="box">

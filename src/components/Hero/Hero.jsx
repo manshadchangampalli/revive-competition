@@ -8,7 +8,10 @@ const Hero = () => {
                 <div className="header">
                     <h2>Discovery</h2>
                     <div className="items">
-                        <p>Login</p>
+                    <div className='login'>
+                            <p>login</p>
+                            <img src="images/icons/login.svg" alt="" />
+                        </div>
                         <div className='search'>
                             <p>Search</p>
                             <img src="images/icons/search.svg" alt="" />

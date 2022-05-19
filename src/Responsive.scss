@@ -1,0 +1,184 @@
+@media (max-width: 1200px) {
+
+.last-section{
+    overflow: hidden;
+}
+  .hero-page .left-side {
+    padding: 20px 10px 80px 80px;
+  }
+  .book-reviewer {
+    grid-gap: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .hero-page .left-side {
+    padding: 30px 10px 80px 30px;
+  }
+  .book-reviewer {
+    padding: 60px 30px;
+  }
+  .cards-section {
+    grid-gap: 30px;
+    padding: 50px 30px;
+    .card-container {
+      grid-gap: 30px;
+    }
+  }
+  .hero-page .left-side-content .content-container {
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-page {
+    grid-template-columns: 1fr;
+    img {
+      display: none;
+    }
+    .left-side {
+      padding-top: 0;
+      padding: 30px;
+    }
+  }
+  .hero-page .left-side-content .content-container {
+    grid-gap: 40px;
+  }
+  .hero-page .left-side-content .content-container button img {
+    display: block;
+  }
+  .hero-page .left-side .header .items .search {
+    img {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .book-reviewer {
+    grid-template-columns: 1fr;
+    .left-sec {
+      text-align: center;
+      h1::after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  .book-reviewer .card {
+    justify-self: center;
+    grid-gap: 25px;
+  }
+  .cards-section .header h1 {
+    font-size: 35px;
+  }
+  .cards-section .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-page{
+    height: auto;
+    min-height: 80vh;
+}
+}
+
+@media (max-width: 640px) {
+  .form-section .form-box {
+    width: 500px;
+    align-items: center;
+  }
+  .last-section .box {
+    width: 500px !important;
+  }
+  .cards-section .header h1 {
+    font-size: 20px;
+  }
+  .cards-section .header p {
+    font-size: 16px;
+  }
+  .last-section .top-button {
+    right: 10px !important;
+  }
+  .form-section .form-box .signup,
+  .form-section .form-box .login {
+    display: grid;
+    width: 100%;
+    grid-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+  }
+  .signup h1 {
+    font-size: 24px;
+  }
+ 
+}
+
+@media (max-width: 520px) {
+  .hero-page .left-side .header h2 {
+    font-size: 24px;
+  }
+  .hero-page .left-side .header .items p {
+    font-size: 15px;
+  }
+  .form-section .form-box {
+    width: 95%;
+  }
+  .last-section .box {
+    width: 95% !important;
+  }
+  .copyright {
+    padding: 15px;
+  }
+  .cards-section .card-container {
+    grid-template-columns: 1fr;
+  }
+  .hero-page .left-side-content .content-container {
+    h1 {
+      font-size: 45px;
+      line-height: 1;
+      span {
+        font-size: 30px;
+      }
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-page .left-side {
+    padding: 15px;
+    .header .items {
+      grid-gap: 10px;
+    }
+  }
+  .book-reviewer {
+      padding: 15px;
+      .left-sec {
+      h1{
+          font-size: 24px;
+      }
+      p{
+          font-size:  16px;
+      }
+    }
+    .card{
+        padding:20px 10px;
+        h1{
+            font-size: 24px;
+            line-height:1 ;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+  }
+  .cards-section{
+      padding: 15px;
+  }
+  .hero-page .left-side .header .items p {
+      display: none;
+  }
+  .hero-page .left-side .header .items .login img {
+    display: block;
+  }
+}

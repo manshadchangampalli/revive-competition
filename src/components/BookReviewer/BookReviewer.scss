@@ -37,8 +37,10 @@
     display: grid;
     justify-self: end;
     color: #06343d;
+    place-items: center;
     text-align: center;
     h1 {
+      line-height: .8;
       font-size: 40px;
     }
     p {
