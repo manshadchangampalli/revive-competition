@@ -17,6 +17,9 @@
     height: 100%;
     position: relative;
     padding: 20px 80px 80px 80px;
+    @media (min-width:1400px){
+        padding: 20px 50px 50px calc((100vw - 1340px)/2);
+    }
     display: grid;
     grid-gap: 50px;
     grid-template-rows: 60px auto;

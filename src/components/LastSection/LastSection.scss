@@ -51,6 +51,9 @@
     background: #081f24;
     border-radius: 50%;
     position: absolute;
+    @media (min-width:1400px){
+      right: calc((100vw - 1350px)/2);
+  }
     right: 50px;
     cursor: pointer;
     bottom: 50px;

@@ -34,10 +34,12 @@
 @media (max-width: 900px) {
   .hero-page {
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     img {
       display: none;
     }
     .left-side {
+      height: 100vh;
       padding-top: 0;
       padding: 30px;
     }
@@ -145,7 +147,12 @@
     }
   }
 }
-
+@media (max-width:460px){
+  .cards-section .header {
+    display: grid;
+    grid-gap: 10px;
+  }
+}
 @media (max-width: 380px) {
   .hero-page .left-side {
     padding: 15px;
@@ -154,7 +161,7 @@
     }
   }
   .book-reviewer {
-      padding: 15px;
+      padding: 50px 15px;
       .left-sec {
       h1{
           font-size: 24px;
@@ -175,7 +182,7 @@
     }
   }
   .cards-section{
-      padding: 15px;
+      padding:40px 15px;
   }
   .hero-page .left-side .header .items p {
       display: none;
