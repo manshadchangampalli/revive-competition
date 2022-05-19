@@ -41,11 +41,14 @@ h2 {
 p {
   font-family: "Poppins", sans-serif;
 }
+
+/* its the page which containing all the components  */
 .pages {
   position:relative ;
   max-width: 100vw;
   overflow-x: hidden;
 }
+/* it is the page bottom text (discovery ) */
 .backgroundText {
   position: absolute;
   right: 0%;

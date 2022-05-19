@@ -1,3 +1,5 @@
+// card section (3th section )
+
 import React from 'react'
 import Cards from './Cards'
 import './CardsSection.scss'

@@ -5,6 +5,7 @@ const Page = lazy(() => import("./Page"));
 
 function App() {
   return (
+    // if the page load slowly the loading page will load 
     <div className="App">
       <Suspense fallback={<Loading/>}>
         <Page />

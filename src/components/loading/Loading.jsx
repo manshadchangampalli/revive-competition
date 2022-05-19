@@ -1,3 +1,5 @@
+// its the loading page
+
 import React from 'react'
 import './Loading.scss'
 const Loading = () => {

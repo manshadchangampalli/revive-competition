@@ -1,3 +1,5 @@
+// it is the last section which is before the copyright
+
 import React from 'react'
 import './LastSection.scss'
 

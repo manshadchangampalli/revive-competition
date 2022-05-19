@@ -1,3 +1,5 @@
+// last copyright section 
+
 import React from 'react'
 import './End.scss'
 

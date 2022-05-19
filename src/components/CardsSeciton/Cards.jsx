@@ -1,3 +1,5 @@
+// it is the card in the cards section (3th section )
+
 import React from 'react'
 
 const Cards = () => {

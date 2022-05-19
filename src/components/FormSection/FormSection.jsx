@@ -1,3 +1,5 @@
+// it is the form section (login and signup )
+
 import React from 'react'
 import './FormSection.scss'
 

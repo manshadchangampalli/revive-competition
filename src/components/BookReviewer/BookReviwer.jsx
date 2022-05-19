@@ -1,3 +1,5 @@
+// it is the BookReviwer ( the second section in the webpage )
+
 import React from 'react'
 import './BookReviewer.scss'
 
