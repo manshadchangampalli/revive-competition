@@ -1,4 +1,5 @@
 import React from 'react'
+import Cards from './Cards'
 import './CardsSection.scss'
 
 const CardsSection = () => {
@@ -10,6 +11,14 @@ const CardsSection = () => {
                 see more
                 <img src="images/icons/arrow.svg" alt="" />
             </p>
+        </div>
+        <div className="card-container">
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/> 
+            <Cards/> 
         </div>
     </div>
   )
