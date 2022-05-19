@@ -44,6 +44,7 @@
     width: 80px;
     height: 80px;
     display: grid;
+    z-index: 999; 
     place-items: center;
     background: #081f24;
     border-radius: 50%;

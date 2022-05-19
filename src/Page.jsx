@@ -7,17 +7,18 @@ import Hero from './components/Hero/Hero'
 import LastSection from './components/LastSection/LastSection'
 
 const Page = () => {
-  return (
-    <div>
-        <Hero/>
-        <div style={{width:"100%",height:"20px",background:"#0E7C83"}} ></div>
-        <BookReviwer/>
-        <CardsSection/>
-        <FormSection/>
-        <LastSection/>
-        <End/>
-    </div>
-  )
+    return (
+        <div>
+            <Hero />
+            <div style={{ width: "100%", height: "20px", background: "#0E7C83" }} ></div>
+            <BookReviwer />
+            <CardsSection />
+            <FormSection />
+            <LastSection />
+            <End />
+            <img src='images/discovery.svg' className="backgroundText"/>
+        </div>
+    )
 }
 
 export default Page
