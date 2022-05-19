@@ -25,7 +25,7 @@ const Hero = () => {
                                 <img src="images/icons/link.svg" alt="" />
                             </button>
                         </div>
-                        <p>Trust Book Recommendations from real people, not robots 😄</p>
+                        <p>Trust Book Recommendations from real people, not robots 🤓</p>
                     </div>
                 </div>
             </div>

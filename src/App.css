@@ -6,6 +6,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  width:100vw;
+  overflow-x: hidden;
+  background: #03323C;
+}
 h1{
   font-family: 'Poppins', sans-serif;
 }
