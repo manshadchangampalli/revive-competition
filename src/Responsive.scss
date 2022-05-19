@@ -70,7 +70,8 @@
   }
   .book-reviewer .card {
     justify-self: center;
-    grid-gap: 25px;
+    padding: 20px 15px ;
+    grid-gap: 15px;
   }
   .cards-section .header h1 {
     font-size: 35px;
@@ -100,6 +101,9 @@
   }
   .last-section .top-button {
     right: 10px !important;
+  }
+  .form-section .form-box input {
+    width: 100%;
   }
   .form-section .form-box .signup,
   .form-section .form-box .login {
