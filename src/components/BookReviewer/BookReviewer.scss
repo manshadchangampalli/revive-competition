@@ -3,7 +3,7 @@
   height: auto;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  padding:80px;
+  padding: 80px;
   grid-gap: 50px;
   .left-sec {
     color: white;
@@ -40,7 +40,7 @@
     place-items: center;
     text-align: center;
     h1 {
-      line-height: .8;
+      line-height: 1;
       font-size: 40px;
     }
     p {
@@ -53,8 +53,26 @@
       font-size: 18px;
       font-weight: 600;
       color: white;
+      position: relative;
+      overflow: hidden;
       border: none;
       outline: none;
+      &::before {
+        transition: all 0.7s ease;
+        content: "";
+        width: 0px;
+        height: 0%;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.212);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &:hover::before {
+        width: 250px;
+        height: 250px;
+      }
     }
   }
 }

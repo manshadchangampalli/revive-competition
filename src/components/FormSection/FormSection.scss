@@ -34,10 +34,29 @@
         width: 130px;
         border: none;
         outline: none;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
         font-size: 16px;
         font-weight: bold;
         color: white;
         border-radius: 10px;
+        &::before {
+          transition: all 0.5s ease;
+          content: "";
+          width: 0px;
+          height: 0%;
+          border-radius: 50%;
+          background: rgba(0, 0, 0, 0.212);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        &:hover::before {
+          width: 250px;
+          height: 250px;
+        }
       }
     }
   }
