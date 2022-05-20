@@ -91,7 +91,21 @@
       align-items: center;
       color: white;
       display: flex;
+      position: relative;
       justify-content: space-between;
+      .search-input{
+        position: absolute;
+        bottom: -30px;
+        right: 0;
+        outline: none;
+        border: none;
+        width: 0px;
+        height: 40px;
+        transition: all .5s ease;
+        padding: 0px 0px;
+        border-radius: 10px;
+        background: rgb(255, 255, 255);
+      }
       .items {
         display: flex;
         gap: 30px;

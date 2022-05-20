@@ -1,22 +1,26 @@
 // first section in the webpage 
 
-import React from 'react'
+import React,{useState} from 'react'
 import './Hero.scss'
 
 const Hero = () => {
+    const [search, setSearch] = useState(false)
     return (
         <div className="hero-page">
             <div className="left-side">
                 <div className="header">
+                    <input style={{width:search && "200px",padding: search && " 0 10px"}} className="search-input"  type="text" />
                     <h2>Discovery</h2>
                     <div className="items">
                     <div className='login'>
                             <p>login</p>
                             <img src="images/icons/login.svg" alt="" />
                         </div>
-                        <div className='search'>
+                        <div onClick={()=>setSearch(!search)} className='search'>
                             <p>Search</p>
-                            <img src="images/icons/search.svg" alt="" />
+                            {
+                            <img src={search ? "images/icons/close.svg":"images/icons/search.svg"} alt="" />
+                            }
                         </div>
                     </div>
                 </div>
