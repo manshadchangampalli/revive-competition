@@ -163,6 +163,11 @@
     padding: 15px;
     .header .items {
       grid-gap: 30px;
+      width: 70px;
+      justify-content: space-between;
+      img{
+        // margin: 0px 5px;
+      }
     }
   }
   .book-reviewer {
