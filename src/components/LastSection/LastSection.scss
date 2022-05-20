@@ -40,10 +40,21 @@
     }
   }
   .controller{
-      display: flex;
       color: white;
       gap: 5px;
       margin-top: 40px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 5%;
+      span{
+        list-style: none;
+        font-size: 34px;
+        font-weight: bold;
+        margin: 0 3px;
+        cursor: pointer;
+
+      }
   }
   .top-button {
     width: 80px;
@@ -64,4 +75,13 @@
         width: 60px;
     }
   }
+}
+.box-container{
+  width: 300vw;
+  height: auto;
+  transition: all .5s ease;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center;
+  
 }
