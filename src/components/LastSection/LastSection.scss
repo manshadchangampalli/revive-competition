@@ -74,6 +74,11 @@
     img{
         width: 60px;
     }
+    &:hover{
+      img{
+        animation: moving 2s linear;
+      }
+    }
   }
 }
 .box-container{
@@ -84,4 +89,23 @@
   grid-template-columns: repeat(3,1fr);
   place-items: center;
   
+}
+
+@keyframes moving {
+  0%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+
 }

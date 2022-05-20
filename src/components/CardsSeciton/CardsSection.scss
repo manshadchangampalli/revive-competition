@@ -27,7 +27,13 @@
       img {
         width: 25px;
         height: 25px;
+        transition: all .5s ease-in;
         transform: rotate(270deg);
+      }
+      &:hover{
+        img{
+          transform: rotate(270deg) translateY(10px);
+        }
       }
     }
   }
