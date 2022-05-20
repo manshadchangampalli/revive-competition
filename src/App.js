@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import "./App.css";
+import "./App.scss";
 import Loading from "./components/loading/Loading";
 const Page = lazy(() => import("./Page"));
 

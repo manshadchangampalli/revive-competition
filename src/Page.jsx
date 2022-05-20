@@ -11,7 +11,7 @@ const Page = () => {
     return (
         <div className='pages' >
             <Hero />
-            <div style={{ width: "100%", height: "20px", background: "#0E7C83" }} ></div>
+            <div className='hero-border' ></div>
             <BookReviwer />
             <CardsSection />
             <FormSection />

@@ -1,10 +1,9 @@
-// it is the responsive styling page 
+// it is the responsive styling page
 
 @media (max-width: 1200px) {
-
-.last-section{
+  .last-section {
     overflow: hidden;
-}
+  }
   .hero-page .left-side {
     padding: 20px 10px 80px 80px;
   }
@@ -70,7 +69,7 @@
   }
   .book-reviewer .card {
     justify-self: center;
-    padding: 20px 15px ;
+    padding: 20px 15px;
     grid-gap: 15px;
   }
   .cards-section .header h1 {
@@ -79,13 +78,13 @@
   .cards-section .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .hero-page{
+  .hero-page {
     height: auto;
     min-height: 80vh;
-}
+  }
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .form-section .form-box {
     width: 500px;
     align-items: center;
@@ -116,7 +115,9 @@
   .signup h1 {
     font-size: 24px;
   }
- 
+  .last-section .controller span {
+    margin: 0px 5px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -151,7 +152,7 @@
     }
   }
 }
-@media (max-width:460px){
+@media (max-width: 460px) {
   .cards-section .header {
     display: grid;
     grid-gap: 10px;
@@ -165,31 +166,31 @@
     }
   }
   .book-reviewer {
-      padding: 50px 15px;
-      .left-sec {
-      h1{
-          font-size: 24px;
+    padding: 50px 15px;
+    .left-sec {
+      h1 {
+        font-size: 24px;
       }
-      p{
-          font-size:  16px;
+      p {
+        font-size: 16px;
       }
     }
-    .card{
-        padding:20px 10px;
-        h1{
-            font-size: 24px;
-            line-height:1 ;
-        }
-        p{
-            font-size: 16px;
-        }
+    .card {
+      padding: 20px 10px;
+      h1 {
+        font-size: 24px;
+        line-height: 1;
+      }
+      p {
+        font-size: 16px;
+      }
     }
   }
-  .cards-section{
-      padding:40px 15px;
+  .cards-section {
+    padding: 40px 15px;
   }
   .hero-page .left-side .header .items p {
-      display: none;
+    display: none;
   }
   .hero-page .left-side .header .items .login img {
     display: block;
